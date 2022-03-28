@@ -1,0 +1,215 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 15px;
+	font-family: 'Spartan', sans-serif;
+}
+body {
+	background-color: hsl(0, 0%, 100%);
+	background-image: url('bg-pattern-top-desktop.svg'), 
+			  url('bg-pattern-bottom-desktop.svg');
+	background-position: left top, 400px 100px;
+	background-repeat: no-repeat;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	margin: 5rem auto 3rem;
+	width: 80%;
+	height: 30rem;
+}
+#main {
+	display: flex;
+	margin-bottom: 3rem;
+}
+h1 {
+	color: hsl(300, 43%, 22%);
+	font-weight: 700;
+	font-size: 3.2rem;
+	line-height: 0.9;
+	margin-bottom: 1.3rem;
+}
+#title {
+	width: 40%;
+}
+#title p {
+	color: hsl(303, 10%, 53%);
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+#stars {
+	margin-left: 7rem;
+	margin-right: 1rem;
+	
+}
+#star2 {
+	margin-left: 4.5em;
+	margin-right: -2rem;
+}
+#star3 {
+	margin-left: 8rem;
+	margin-right: -5rem;
+}
+.starss {
+	display: flex;
+	background-color: hsl(300, 24%, 96%);
+	padding: 1.5rem 4rem 1.5rem 2rem;
+	margin: 1rem;
+	border-radius: 0.75rem;
+}
+.starss img {
+	margin-right: 0.5rem;
+}
+h2 {
+	color: hsl(300, 43%, 22%);
+	font-weight: 700;
+	margin-left: 1.3rem;
+}
+#second {
+	display: flex;
+	
+}
+.review {
+	background-color: hsl(300, 43%, 22%);
+	margin-right: 2rem;
+	border-radius: 0.5rem;
+	height: 13rem;
+	padding: 2.1rem;
+	padding-top: 3rem;
+}
+.review img {
+	border-radius: 50%;
+	width: 3rem;
+}
+
+h3 {
+	color: hsl(0, 0%, 100%);
+	font-size: 0.8rem;
+	margin-bottom: 0.5rem;
+}
+h4 {
+	color: hsl(333, 80%, 67%);
+	font-size: 0.8rem;
+	font-weight: 400;
+}
+.profile {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 2rem;
+}
+.secp {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 2rem;
+}
+.review p {
+	color: hsl(300, 24%, 96%);
+	font-size: 0.9rem;
+	font-weight: 500;
+	line-height: 2;
+}
+#review2 { 
+	margin-top: 1rem;
+}
+#review3 {
+	margin-top: 2rem;
+}
+.attribution {
+        font-size: 11px;
+	text-align: center;
+	margin-top: 9.5rem;
+}
+.attribution a {
+        color: hsl(228, 45%, 44%);
+	font-size: 11px;
+	text-decoration: none;
+}
+@media screen and (max-width: 500px) {
+	header {
+		margin: 3rem;
+		width: 80%;
+	}
+	body {
+		background-color: hsl(0, 0%, 100%);
+		background-image: url('bg-pattern-top-desktop.svg'), 
+			  	  url('bg-pattern-bottom-mobile.svg');
+		background-position: left top, right bottom;
+		background-repeat: no-repeat;
+	}
+	#main {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		margin-bottom: 3rem;
+		margin-top: 3rem;
+	}
+	h1 {
+		font-size: 2.7rem;
+		line-height: 0.9;
+		margin-bottom: 3rem;
+		text-align: center;
+	}
+	#title {
+		width: 100%;
+	}
+	#title p {
+		font-size: 1.1rem;
+		line-height: 1.5;
+		text-align: center;
+		margin-bottom: 3rem;
+	}
+	#stars {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.starss {
+		width: 95%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 1.2rem 1rem;
+	}
+	#star1, #star2, #star3 {
+		margin: 0;
+		margin-bottom: 1.5rem;
+	}
+	h2 {
+		color: hsl(300, 43%, 22%);
+		font-weight: 700;
+		font-size: 1.2rem;
+		margin-top: 1.2rem;
+	}
+	.starss img {
+		width: 1.5rem;
+	}
+	#second {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+}
+	h3, h4 {
+		font-size: 1rem;
+	}
+	#review1, #review2, #review3 {
+		margin: 0;
+		margin-bottom: 1.5rem;
+	}
+	.review {
+		width: 85%;
+		padding: 2.3rem;
+		
+	}
+	.review p {
+		font-size: 1rem;
+		line-height: 1.8;
+	}
+	#review3 {
+		margin-bottom: 7rem;
+	}
+	.attribution {
+		margin-top: 80rem;
+	}
+}
